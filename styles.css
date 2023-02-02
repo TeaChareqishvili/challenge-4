@@ -253,6 +253,14 @@ h6{
     color: hsl(5, 85%, 63%);
 }
 
+
+
+
+
+
+
+
+
 @media (max-width:1024px){
     .grid{
         display:grid;
@@ -314,6 +322,8 @@ h6{
  } 
 .article{
     display:flex;
+    padding:1rem 0;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 } 
